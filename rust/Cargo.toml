@@ -1,14 +1,6 @@
 [[bin]]
-name = 'two-sum'
-path = 'src/0001.two-sum/solution.rs'
-
-[[bin]]
-name = 'jump-game'
-path = 'src/0055.jump-game/solution.rs'
-
-[[bin]]
-name = 'gas-station'
-path = 'src/0134.gas-station/solution.rs'
+name = 'largest-number'
+path = 'src/0179.largest-number/solution.rs'
 
 [dependencies]
 anyhow = '1.0.79'
