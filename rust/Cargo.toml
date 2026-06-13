@@ -18,6 +18,10 @@ path = 'src/0376.wiggle-subsequence/solution.rs'
 name = 'remove-k-digits'
 path = 'src/0402.remove-k-digits/solution.rs'
 
+[[bin]]
+name = 'longest-palindrome'
+path = 'src/0409.longest-palindrome/solution.rs'
+
 [dependencies]
 anyhow = '1.0.79'
 leetgo-rs = '0.2.1'
