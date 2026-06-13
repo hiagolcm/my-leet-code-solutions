@@ -23,6 +23,8 @@ use std::collections::HashMap;
 //     if can_odd { ans += key.val; can_odd = false } else { ans += key.val - 1}
 //   }
 
+// ans = 7
+
 impl Solution {
     pub fn longest_palindrome(s: String) -> i32 {
         let mut frequency_map: HashMap<char, i32> = HashMap::new();

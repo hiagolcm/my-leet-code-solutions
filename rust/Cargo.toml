@@ -22,6 +22,10 @@ path = 'src/0402.remove-k-digits/solution.rs'
 name = 'longest-palindrome'
 path = 'src/0409.longest-palindrome/solution.rs'
 
+[[bin]]
+name = 'array-partition'
+path = 'src/0561.array-partition/solution.rs'
+
 [dependencies]
 anyhow = '1.0.79'
 leetgo-rs = '0.2.1'
