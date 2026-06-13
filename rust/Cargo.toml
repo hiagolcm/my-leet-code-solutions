@@ -14,6 +14,10 @@ path = 'src/0334.increasing-triplet-subsequence/solution.rs'
 name = 'wiggle-subsequence'
 path = 'src/0376.wiggle-subsequence/solution.rs'
 
+[[bin]]
+name = 'remove-k-digits'
+path = 'src/0402.remove-k-digits/solution.rs'
+
 [dependencies]
 anyhow = '1.0.79'
 leetgo-rs = '0.2.1'
