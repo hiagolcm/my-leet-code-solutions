@@ -83,25 +83,14 @@ impl Solution {
 		}
 
 
-		let mut answer = String::from("");
+		let ans: String = stack.into_iter().skip_while(|&c| c == '0').collect();
 
-		let mut possibly_has_trailing_zero = true;
-		for c in stack {
-			if c == '0' &&  possibly_has_trailing_zero{
-				continue
-			} else {
-				possibly_has_trailing_zero = false;
-			}
-
-
-			answer = format!("{answer}{c}");
-		}
-
-		if answer.len() == 0 {
-			return String::from("0");
-		}
-
-		answer
+        // If the resulting string is empty, return "0"
+        if ans.is_empty() {
+            "0".to_string()
+        } else {
+            ans
+        }
     }
 }
 
