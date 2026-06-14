@@ -26,6 +26,14 @@ path = 'src/0409.longest-palindrome/solution.rs'
 name = 'array-partition'
 path = 'src/0561.array-partition/solution.rs'
 
+[[bin]]
+name = 'shortest-unsorted-continuous-subarray'
+path = 'src/0581.shortest-unsorted-continuous-subarray/solution.rs'
+
+[[bin]]
+name = 'di-string-match'
+path = 'src/0942.di-string-match/solution.rs'
+
 [dependencies]
 anyhow = '1.0.79'
 leetgo-rs = '0.2.1'
